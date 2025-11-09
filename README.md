@@ -1,4 +1,4 @@
-### Hi, I'm Yulee (이유리) 👋
+### Hi, I'm Yuri Lee (이유리) 👋
 
 - 🔭 I'm an undergraduate student at **Seoul National University (SNU)**, double-majoring in **Computer Science** and **Plant Production Science**.
 - 🌱 I'm passionate about **Programming Languages (PL)**, **Compilers**, **Type Systems**, and low-level system design.
