@@ -13,7 +13,7 @@
 - 유사 서비스 실패 원인 분석 → 학교 메일 인증 기반 신뢰 구조 설계
 - JWT 대신 세션 방식 채택 — 악성유저 즉시 차단
 - 커서 기반 페이지네이션 → 채팅 목록 RPS 30% 개선
-- K8s → Docker Compose 전환 (AWS 프리티어 리소스 제약 판단)
+
 
 **[Pi LLM Automation](https://github.com/colswap/pi-llm-automation)** — 라즈베리파이 LLM 자동화 시스템
 > 1인 기획 · 설계 · 구축 · 운영
