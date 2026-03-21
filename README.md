@@ -21,7 +21,6 @@
 - 메모 → LLM 자동 분류 → 옵시디언 저장 + 캘린더 등록
 - 강의 녹음 → STT 자동 전사 → 강의노트 생성
 - 장학금 크롤링 → 자격조건 필터링 → 알림
-- 공개 포트 0 — Tailscale VPN + SSH 키 인증
 
 ---
 
@@ -33,14 +32,6 @@
 | 🔬 **LABA** | 학부 연구인턴 — 농업 AI |
 | 🌐 **Jane Street** | INSIGHT SWE Program |
 | 🧇 **와플스튜디오** | 23.5기 |
-
-<details>
-<summary>🧩 PL / Compilers (이전 프로젝트)</summary>
-
-OCaml 기반 8+ 프로젝트 — 타입 체커, 컴파일러, 바이너리 트랜슬레이터, GC, CPS 변환기
-
-</details>
-
 ---
 
 📫 colswap@gmail.com
