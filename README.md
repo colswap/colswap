@@ -1,33 +1,46 @@
-### Hi, I'm Yuri Lee (이유리) 👋
+### 안녕하세요, 이유리입니다 👋
 
-- 🔭 I'm an undergraduate student at **Seoul National University (SNU)**, double-majoring in **Computer Science** and **Plant Production Science**.
-- 🌱 I'm passionate about **Programming Languages (PL)**, **Compilers**, **Type Systems**, and low-level system design.
-- 💡 My goal is to merge my knowledge in plant science with CS/AI to solve real-world problems in the Agri-Tech space.
-- 💻 I'm currently learning backend development (using **Kotlin** and **Spring Boot**) as a member of **Waffle Studio**, SNU's software development club.
+반복되는 문제를 코드로 해결하는 걸 좋아하는 백엔드 개발자입니다.
 
-- 📫 **Contact:** yulee2004@gmail.com
----
-
-### 🚀 My Pinned Projects
-
-* **[m-polymorphic-type-system](https://github.com/colswap/m-polymorphic-type-system)**
-    * An implementation of a let-polymorphic type checker in OCaml, based on the Hindley-Milner (Algorithm W).
-* **[sm5-binary-translator](https://github.com/colswap/sm5-binary-translator)**
-    * A binary translator (inspired by Apple's Rosetta) that converts SM5 VM bytecode to a target VM (Sonata) without a continuation stack.
-* **[sm5-garbage-collector](https://github.com/colswap/sm5-garbage-collector)**
-    * A Mark & Sweep Garbage Collector for a VM, using the S, M, E, and K (Continuation) stacks as GC roots.
-* **[type-inference-treasure-island](https://github.com/colswap/type-inference-treasure-island)**
-    * Solved an algorithmic puzzle by modeling it as a type-inference problem and implementing a unification algorithm in OCaml.
-* **[k-to-sm5-compiler](https://github.com/colswap/k-to-sm5-compiler)**
-    * A compiler that translates a high-level imperative language (K-*) into low-level stack machine (SM5) bytecode.
-* **[cps-transformer](https://github.com/colswap/cps-transformer)**
-    * A translator that converts a functional program into Continuation-Passing-Style (CPS) to make control flow explicit.
-
-➡️ *...and 8 other projects on compilers, interpreters, and type systems!*
+**서울대학교 컴퓨터공학부** (3학년) · 인공지능 연합전공
 
 ---
 
-### 🛠️ Tech Stack
+### 📌 Projects
 
-- **Languages:** OCaml, Java, Kotlin, Python, C++
-- **Tools & Build Systems:** Git, Dune
+**[SNUXI](https://github.com/colswap/snuxi)** — 교내 택시팟 서비스
+> PM + Backend (5인 팀, 와플스튜디오 23.5기)
+- 유사 서비스 실패 원인 분석 → 학교 메일 인증 기반 신뢰 구조 설계
+- JWT 대신 세션 방식 채택 — 악성유저 즉시 차단
+- 커서 기반 페이지네이션 → 채팅 목록 RPS 30% 개선
+- K8s → Docker Compose 전환 (AWS 프리티어 리소스 제약 판단)
+
+**[Pi LLM Automation](https://github.com/colswap/pi-llm-automation)** — 라즈베리파이 LLM 자동화 시스템
+> 1인 기획 · 설계 · 구축 · 운영
+- 모닝 브리핑 (이메일 + 캘린더 + 마감) → 텔레그램 자동 발송
+- 메모 → LLM 자동 분류 → 옵시디언 저장 + 캘린더 등록
+- 강의 녹음 → STT 자동 전사 → 강의노트 생성
+- 장학금 크롤링 → 자격조건 필터링 → 알림
+- 공개 포트 0 — Tailscale VPN + SSH 키 인증
+
+---
+
+### 🏃 Activities
+
+| | |
+|---|---|
+| 🚀 **SNUSV** | 서울대 학생벤처네트워크 38기 |
+| 🔬 **LABA** | 학부 연구인턴 — 농업 AI |
+| 🌐 **Jane Street** | INSIGHT SWE Program |
+| 🧇 **와플스튜디오** | 23.5기 |
+
+<details>
+<summary>🧩 PL / Compilers (이전 프로젝트)</summary>
+
+OCaml 기반 8+ 프로젝트 — 타입 체커, 컴파일러, 바이너리 트랜슬레이터, GC, CPS 변환기
+
+</details>
+
+---
+
+📫 colswap@gmail.com
